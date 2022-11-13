@@ -19,3 +19,8 @@ while read p; do
  sleep 10
 done< /tmp/playback
 ```
+
+## Reset Repo to initial commit
+```
+git push http://user1:password@localhost:3000/user1/repo.git $(git rev-list --all | tail -n 1):refs/heads/main -f
+```
