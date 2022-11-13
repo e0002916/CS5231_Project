@@ -2,6 +2,7 @@
 
 ## First time Setup
 ```
+git clone --recurse-submodules https://github.com/e0002916/CS5231_Project.git
 docker-compose up
 
 docker exec --user git -it gitea bash
