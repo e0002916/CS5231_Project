@@ -6,7 +6,7 @@ git clone --recurse-submodules https://github.com/e0002916/CS5231_Project.git
 docker-compose up
 
 docker exec --user git -it gitea bash
-gitea admin user create --name user1 --password password --email user1.nus.u.edu
+gitea admin user create --name user1 --password password --email user1@nus.u.edu
 # Login with user 'user1' and password 'password' and create empty repo called "repo"
 ```
 
